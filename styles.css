@@ -1,0 +1,24 @@
+.tabla {
+    background-color: yellow;
+}
+
+/*
+border-collapse para solo dejar una línea.
+Al TH se le agrega border none para quitar el borde del medio
+*/
+
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+}
+
+.tabla th {
+    color: red;
+    border: none;
+}
+
+
+
+
+
